@@ -4888,6 +4888,40 @@ box-shadow:  10px 20px 26px #5c5b5b;
  
 }
 
+@media (max-width: 800px) {
+  .right-contact h1 {
+    font-size: 3em;
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 350px) {
+  .right-contact h1 {
+    font-size: 2em;
+    padding-top: 20px;
+  }
+  .left-contact h1 {
+    font-size: 2em;
+    padding-top: 200px;
+  }
+  .right-contact p {
+    font-size: 1.2em;
+  
+  }
+}
+
+
+@media (max-width: 300px) {
+  .right-contact h1 {
+    font-size: 1.8em;
+    padding-top: 20px;
+  }
+  .right-contact p {
+    font-size: 1em;
+ 
+  }
+}
+
 
 /* ========================================= */
 /*          Blog CSS        */
