@@ -1,0 +1,82 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.game-container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+    position: relative;
+}
+
+h1 {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.column {
+    width: 45%;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.draggable {
+    background-color: #007BFF;
+    color: white;
+    padding: 30px;
+    margin: 15px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+}
+
+.drop-area {
+    background-color: #f0f0f0;
+    border: 2px dashed #007BFF;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.drop-area.correct {
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+#reset-button-game1, #reset-button-game2, #reset-button-game3, #reset-button-game4 {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#reset-button-game1:hover, #reset-button-game2:hover, #reset-button-game3:hover, #reset-button-game4:hover {
+    background-color: #0056b3;
+}

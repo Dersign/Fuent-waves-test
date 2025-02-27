@@ -1,0 +1,128 @@
+/* style.css */
+
+.game-container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.column {
+    width: 45%;
+}
+
+#def1 {
+    padding: 5px;
+}
+#def2 {
+    padding: 5px;
+}
+#def3 {
+    padding: 5px;
+}
+#def {
+    padding: 5px;
+}
+
+.draggable {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+}
+
+.drop-area {
+    background-color: #f0f0f0;
+    border: 2px dashed #007BFF;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.drop-area.correct {
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+
+.controls {
+    position: absolute;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Adds space between reset button and feedback */
+}
+
+#feedback-game1, #feedback-game2 {
+    font-size: 0.4em;
+    font-weight: bold;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #2f2f2f;
+    padding: 8px;
+    text-align: left;
+    font-size: 0.57em;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+
+
+
+#reset-button #reset-button-game1, #reset-button-game2{
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#reset-button:hover #reset-button-game1:hover, #reset-button-game2:hover {
+    background-color: #0056b3;
+}
+
+
+.wordy {
+    padding: 30px;
+    font-size: 0.5em;
+    font-weight: 600;
+}
+#h1game {
+    font-size: 0.3em;
+    font-weight: 700;
+}
