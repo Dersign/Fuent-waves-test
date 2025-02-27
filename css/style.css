@@ -87,6 +87,10 @@ h1 {
 h2 {
   font-size: 36px; }
 
+  .indextitle {
+    font-size: 2.8em;
+  }
+
 h3 {
   font-size: 21px; }
 
@@ -110,6 +114,18 @@ h6 {
 
   h3 {
     font-size: 18px; } }
+
+    @media (max-width: 550px) {
+      .indextitle {
+        font-size: 2em;
+      }
+    }
+
+    @media (max-width: 376px) {
+      .indextitle {
+        font-size: 1.6em;
+      }
+    }
 p {
   margin-bottom: 8px; }
   .p1 h3 {
@@ -2840,9 +2856,7 @@ ul.social-with-text li {
       margin: 0 2px 1.5rem 2px;
       text-align: left; } }
 @media (max-width: 767px) {
-  /* .call-banner {
-    background-image: url(../images/NewDemo/p42.jpg);
-  } */
+
   .discount-action .call-banner {
     height: 500px; }
     .discount-action .call-banner .call-button {
