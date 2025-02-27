@@ -122,6 +122,9 @@ h6 {
     }
 
     @media (max-width: 376px) {
+      .section-title .indextitle {
+        margin-bottom: 0;
+      }
       .indextitle {
         font-size: 1.6em;
       }
@@ -525,7 +528,9 @@ section {
     padding: 3rem 0 4rem; }
   .arrowbox {
     display: none;
-  } }
+
+  }
+ }
 
    @media (max-width: 768px) {
      section {padding: 2rem 0 2rem;}  } 
@@ -2554,6 +2559,12 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
         width: 100%;
         position: relative;
         bottom: inherit; } }
+
+        @media (min-width: 800px) {
+          .page-post {
+            display: none;
+          }
+        }
 @media (max-width: 767px) {
   .trending-topic .trending-topic-item {
     text-align: center; }
@@ -2562,6 +2573,21 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
     .facebook4 {
       display: none;
     }}
+
+    @media (max-width: 412px) {
+      .page-post h1 {
+       font-size: 2em;
+      }
+    }
+
+    @media (max-width: 276px) {
+      .page-post h1 {
+       font-size: 1.5em;
+      }
+      .tag {
+        font-size: 0.8em;
+      }
+    }
 /* ========================================= */
 /*          Trending  CSS        */
 /* ======================================== */
