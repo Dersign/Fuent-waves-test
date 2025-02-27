@@ -504,6 +504,20 @@ section {
   padding: 4.75rem 0 5rem;
   position: relative; }
 
+@media (max-width: 800px) {
+  section {
+    padding: 3rem 0 4rem; }
+  .arrowbox {
+    display: none;
+  } }
+
+   @media (max-width: 768px) {
+     section {padding: 2rem 0 2rem;}  } 
+
+
+    
+ 
+
 /*heading title*/
 .section-title, .section-title-w {
   position: relative;
@@ -2379,74 +2393,15 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
     width: 90%;
     top: 50%;
     transform: translateY(-50%); } }
-@media (max-width: 767px) {
-  .banner .slider .swiper-container .swiper-slide .inner-slide::before {
-    display: none; }
-  .banner .slider .swiper-container .swiper-slide .inner-slide .swiper-content {
-    width: 90% !important;
-    left: 0;
-    right: 0;
-    text-align: center;
-    margin: 0 auto; }
-    .banner .slider .swiper-container .swiper-slide .inner-slide .swiper-content span {
-      padding-left: 0; }
-      .banner .slider .swiper-container .swiper-slide .inner-slide .swiper-content span:before {
-        display: none; }
-  .banner .slider .swiper-container .swiper-slide .inner-slide .overlay {
-    width: 100%; }
-  .banner .slider .swiper-button-prev, .banner .slider .swiper-button-next {
-    display: none; }
-  .banner .swiper-button-prev, .banner .swiper-button-next {
-    display: none; } }
-@media (max-width: 639px) {
-  .banner .container {
-    padding: 0; }
-  .banner .slider {
-    overflow: visible;
-    padding: 0 !important; }
-    .banner .slider .swiper-container .swiper-slide .inner-slide .slide-image {
-      width: 100%;
-      position: relative;
-      top: inherit;
-      left: inherit;
-      right: inherit;
-      transform: none; }
-    .banner .slider .swiper-container .swiper-slide .inner-slide .swiper-content {
-      padding: 30px;
-      box-shadow: none;
-      bottom: 20px;
-      transform: none;
-      top: auto; }
-      .banner .slider .swiper-container .swiper-slide .inner-slide .swiper-content > h1 {
-        font-size: 32px; }
-    .banner .slider .swiper-container-vertical > .swiper-pagination-bullets {
-      display: none; }
-  .banner .video-slider .swiper-content {
-    display: none; }
-  .banner .banner-main .banner-content > h1 {
-    font-size: 30px; } }
-@media (max-width: 400px) {
-  .banner .slider .swiper-container .swiper-slide .inner-slide .swiper-content {
-    text-align: left;
-    padding: 20px; }
-    .banner .slider .swiper-container .swiper-slide .inner-slide .swiper-content .entry-meta, .banner .slider .swiper-container .swiper-slide .inner-slide .swiper-content .entry-date, .banner .slider .swiper-container .swiper-slide .inner-slide .swiper-content .entry-category {
-      display: block !important;
-      margin-bottom: 15px; }
-    .banner .slider .swiper-container .swiper-slide .inner-slide .swiper-content .entry-author {
-      margin-bottom: 15px; }
-      .banner .slider .swiper-container .swiper-slide .inner-slide .swiper-content .entry-author .entry-date {
-        margin-bottom: 0; }
-    .banner .slider .swiper-container .swiper-slide .inner-slide .swiper-content > h1 {
-      font-size: 24px; }
-  .banner .slider .swiper-container-vertical > .swiper-pagination-bullets {
-    display: none; }
-  .banner .video-slider .swiper-content {
-    display: none; }
-  .banner .banner-main .banner-content > h1 {
-    font-size: 30px; }
 
-  .slider-thumbs, .slick-content-inner {
-    display: none !important; } }
+    @media (max-width: 800px) {
+   
+      .banner .slider {
+        display: none;
+      }
+    }
+
+
 #particles-js {
   width: 100%;
   height: 100%;
@@ -2587,7 +2542,10 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
   .trending-topic .trending-topic-item {
     text-align: center; }
     .trending-topic .trending-topic-item:before {
-      display: none; } }
+      display: none; } 
+    .facebook4 {
+      display: none;
+    }}
 /* ========================================= */
 /*          Trending  CSS        */
 /* ======================================== */
@@ -2882,6 +2840,9 @@ ul.social-with-text li {
       margin: 0 2px 1.5rem 2px;
       text-align: left; } }
 @media (max-width: 767px) {
+  .call-banner {
+    background-image: url(../images/NewDemo/p42.jpg);
+  }
   .discount-action .call-banner {
     height: 500px; }
     .discount-action .call-banner .call-button {
