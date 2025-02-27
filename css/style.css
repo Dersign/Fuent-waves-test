@@ -2789,6 +2789,9 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
       width: 100% !important; }
     .trending .trend-item .trend-content {
       padding: 20px 0; }
+      .trend2 {
+        display: none;
+      }
 
   .entry-meta {
     display: block !important; }
