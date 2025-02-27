@@ -4899,7 +4899,7 @@ box-shadow:  10px 20px 26px #5c5b5b;
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 570px) {
   .left-contact {
     height: 20vh;  
   }
@@ -4948,7 +4948,7 @@ box-shadow:  10px 20px 26px #5c5b5b;
   }
   .left-contact h1 {
     font-size: 1.2em;
-    padding-top: 20px;
+    padding-top: 2 0px;
   }
 }
 
