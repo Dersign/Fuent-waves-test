@@ -5488,6 +5488,14 @@ body.night-mode {
 body.night-mode .container h2, h3 {
   color: #fff;
 }
+
+body.night-mode .author-detail h1, h2, h3 {
+  color: #ffffff;
+} 
+
+body.night-mode .paragraph h3 {
+  color: #ffffff;
+} 
   body.night-mode .bg-grey {
     background: transparent !important; }
   body.night-mode .section-title h2 span, body.night-mode .section-title h3 {
