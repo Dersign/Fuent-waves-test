@@ -189,6 +189,10 @@ input::placeholder {
 img {
   max-width: 100%; }
 
+  .border-b {
+    color: #1b1b1b;
+  }
+
 .btn-info.focus, .btn-info:focus, .btn-info:active {
   outline: none;
   box-shadow: none !important;
