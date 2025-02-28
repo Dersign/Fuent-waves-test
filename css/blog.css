@@ -136,3 +136,9 @@ padding-bottom: 20px;
     column-rule: #ffff;
     cursor: pointer;
 }
+
+
+/* Slang Page */
+.review-btn h2 {
+    color: #1b1b1b;
+}
