@@ -3916,6 +3916,8 @@ Change the following styles to modify the appearance of the menu.
     left: 60%;
     bottom: 0;
     color: #fff;
+    padding-right: 17px;
+    padding-left: 8px;
     padding-top: 10px;
     width: 50px;
     text-align: center;
