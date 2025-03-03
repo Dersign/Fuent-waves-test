@@ -88,6 +88,10 @@ h1 {
 h2 {
   font-size: 36px; }
 
+  .h2-innerdoubts{
+    font-size: 30px;
+    color: #1b1b1b;
+  }
   .indextitle {
     font-size: 2.8em;
   }
