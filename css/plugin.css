@@ -3854,6 +3854,10 @@ Change the following styles to modify the appearance of the menu.
     font-size: 13px;
     text-align: left;
 }
+
+.slicknav_nav .contact {
+    margin-left: 20px;
+}
 .slicknav_nav .slicknav_item a, .slicknav_nav .slicknav_parent-link a {
     padding: 10px 15px;
     margin: 0;
@@ -3916,7 +3920,7 @@ Change the following styles to modify the appearance of the menu.
     left: 60%;
     bottom: 0;
     color: #fff;
-    padding-right: 23px;
+    padding-right: 38px;
     padding-left: 23px;
     padding-top: 10px;
     width: 50px;
