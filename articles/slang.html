@@ -4,34 +4,33 @@
     <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1" >
     <title>Fluent Waves Aricle 13 - English Slang</title>
-
-    <link rel="icon" type="image/png" href="../images/favicon/favicon-07.png" >
-
     <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" >
-
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-07.png" >
+    <link rel="preload" href="/css/style.css" as="style"> 
     <link href="../css/style.css" rel="stylesheet" type="text/css" >
-
-    <link href="../css/plugin.css" rel="stylesheet" type="text/css" >
-
-    <link
+    <link rel="preload" href="/css/plugin.css" as="style"> 
+    <link rel="stylesheet" href="../css/plugin.css">
+   
+   
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    >
+    > -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
     >
     <link rel="stylesheet" href="fonts/line-icons.css" type="text/css" >
-    <link
+    <!-- <link
       rel="stylesheet"
       href="path/to/font-awesome/css/font-awesome.min.css"
-    >
-    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    > -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" > -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
       rel="stylesheet"
-    >
+    > -->
   </head>
   <body>
     <div id="preloader">
@@ -119,7 +118,7 @@
                   ></a>
                 </li>
                 <li><a href="../about.html">About Us</a></li>
-                <li class="submenu dropdown">
+                <li class="submenu dropdown active">
                   <a
                     href="../articles.html"
                     class="dropdown-toggle"
@@ -215,33 +214,6 @@
                 
                       </ul>
                     </li>
-                    <li class="submenu dropdown">
-                      <a
-                        href="../about.html"
-                        class="dropdown-toggle"
-                        data-toggle="dropdown"
-                        role="button"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                        >Mystical Book<i
-                          class="fa fa-angle-right"
-                          aria-hidden="true"
-                        ></i
-                      ></a>
-                      <ul class="dropdown-menu">
-                        <li>
-                          <a href="../mystical/hp/index.html" target="_blank"
-                            >Harry Potter</a
-                          >
-                        </li>
-
-                        <li>
-                          <a href="../mystical/hp/index.html" target="_blank"
-                            >& Many other books</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
                     <li><a href="slang.html">Slang</a></li>
                     <li><a href="../jobinterview.html">Job Interview Tips</a></li>
                     <li><a href="../blogs/idioms.html">Idioms</a></li>
@@ -253,59 +225,6 @@
                     </li>
                   </ul>
                 </li>
-                <li class="dropdown submenu active" id="articles">
-                  <a
-                    href="../articles.html"
-                    class="dropdown-toggle"
-                    data-toggle="dropdown"
-                    role="button"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    >Articles
-                    <i class="icon-arrow-down" aria-hidden="true"></i
-                  ></a>
-                  <ul class="dropdown-menu articles">
-                    <li class="submenu dropdown">
-                      <a
-                        href="../index.html"
-                        class="dropdown-toggle"
-                        data-toggle="dropdown"
-                        role="button"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                        >Fluent Waves Articles<i
-                          class="fa fa-angle-right"
-                          aria-hidden="true"
-                        ></i
-                      ></a>
-                      <ul class="dropdown-menu">
-                        <li>
-                          <a href="chimps.html">Chimps - Study</a>
-                        </li>
-                        <li>
-                          <a href="embryo.html"
-                            >Frozen Embryo Birth</a
-                          >
-                        </li>
-                        <li>
-                          <a href="china.html"
-                            >Meet The 'Hard-Butt' Travellers</a
-                          >
-                        </li>
-                        <li>
-                          <a href="clown.html"
-                            >Florida's 'Killer Clown'</a
-                          >
-                        </li>
-                        <li>
-                          <a href="kitty.html">CIA Spy Cat</a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-
-        
                 <li><a href="../contact.html">Contact</a></li>
               </ul>
               </div>
@@ -376,7 +295,7 @@
               </div>
             </div>
             <div>
-              <img src="../images/articles/slang/slang1.jpg" alt="Couple in chat img" >
+              <img src="../images/articles/slang/slang1.jpg" fetchpriority="high" alt="Couple in chat img" >
               <p style="font-size: 0.8em">Photo by Samson Katt: pexels.com</p>
             </div>
             <p class="mt-4 intro">
@@ -409,7 +328,7 @@
             </blockquote>
             <img
               class="mb-4"
-              src="../images/articles/slang/craiccopy.jpg"
+              src="../images/articles/slang/craiccopy.jpg" loading="lazy"
               alt="craic"
             
             >
@@ -431,11 +350,6 @@
               <br >Last night was great craic! <br >Any craic from the
               weekend?
             </p>
-            <!-- <img
-              class="mb-4"
-              src="../images/articles/slang/grand.jpg"
-              alt="craic" style="height: 600px;"
-            > -->
             <p style="color: #1b1b1b; font-size: 1.4em">
               <b>Grand</b>
             </p>
@@ -455,11 +369,6 @@
               <br >The weather’s not great, but it’s grand for a walk. <br >I
               forgot my wallet! — Don’t worry, it’s grand.
             </p>
-            <!-- <img
-            class="mb-4"
-            src="../images/articles/slang/deadly copy.jpg"
-            alt="craic" style="height: 450px;"
-          > -->
             <p style="color: #1b1b1b; font-size: 1.4em">
               <b>Deadly</b>
             </p>
@@ -475,12 +384,6 @@
               <br >You got the job? Deadly stuff! <br >This new café is deadly
               altogether!
             </p>
-            <!-- <img
-          
-          src="../images/articles/slang/eejit.jpg"
-          alt="craic" style="height: 400px;"
-        > <p class="mb-3" style="font-size: 0.8em;">Photo by RDNE: pexels.com</p> -->
-
             <p style="color: #1b1b1b; font-size: 1.4em">
               <b>Eejit</b>
             </p>
@@ -499,6 +402,7 @@
 
             <img
               src="../images/articles/slang/karlmphotography.jpg"
+              loading="lazy"
               alt="craic"
              
             >
@@ -547,7 +451,7 @@
             <img
               src="../images/articles/slang/gas.jpg"
               alt="gas img"
-             
+              loading="lazy"
               class="mb-4"
             >
 
@@ -591,6 +495,7 @@
 
             <img
               src="../images/articles/slang/mart-production-drunk.jpg"
+              loading="lazy"
               alt="Drunk img"
            
             >
@@ -713,6 +618,7 @@
 
             <img
               src="../images/articles/slang/uk/chuffed-arthur-swiffen.jpg"
+              loading="lazy"
               alt="Football hooligans"
            
             >
@@ -820,6 +726,7 @@
 
             <img
               src="../images/articles/slang/us/usa-riccardo-fraccarollo.jpeg"
+              loading="lazy"
               alt="USA empire state building img"
              
             >
@@ -899,6 +806,7 @@
 
             <img
               src="../images/articles/slang/us/bro-wildlittlethingsphoto.jpeg"
+              loading="lazy"
               alt="Friends img"
             
             >
@@ -1018,6 +926,7 @@
             <br >
             <img
               src="../images/articles/slang/aussie/aussie-brettstone.jpeg"
+              loading="lazy"
               alt="Sydney img"
             
             >
@@ -1096,6 +1005,7 @@
 
             <img
               src="../images/articles/slang/aussie/mozzie-luisfotovideo.jpeg"
+              loading="lazy"
               alt="Mozzie image"
               
             >
@@ -1184,6 +1094,7 @@
 
             <img
               src="../images/articles/slang/aussie/She-elletakesphotos.jpeg"
+              loading="lazy"
               alt="Mates in chat img"
            
             >
@@ -1503,7 +1414,7 @@
                   <div class="trend-item d-flex align-items-center mb-2">
                     <div class="trend-image w-25 me-4">
                       <img
-                        src="../images/trending/trending4.jpg"
+                        src="../images/thumbnails/trending4.jpg"
                         alt="Thumbnail image for Improving your English Article"
                       >
                     </div>
@@ -1532,7 +1443,7 @@
                   <div class="trend-item d-flex align-items-center mb-2">
                     <div class="trend-image w-25 me-4">
                       <img
-                        src="../images/trending/trending5.jpg"
+                        src="../images/thumbnails/trending5.jpg"
                         alt="Thumbnail image for Learning English Article"
                       >
                     </div>
@@ -1563,7 +1474,7 @@
                   <div class="trend-item d-flex align-items-center mb-2">
                     <div class="trend-image w-25 me-4">
                       <img
-                        src="../images/trending/trending12.jpg"
+                        src="../images/thumbnails/trending12.jpg"
                         alt="Thumbnail image for the Nomad Student Article"
                       >
                     </div>
